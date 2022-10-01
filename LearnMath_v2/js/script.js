@@ -5,11 +5,11 @@ window.onscroll = function() {
 
     if (scroll > 20) {
 
-        header.classList.add('nav_mode');
+        header.classList.add('nav_mod');
 
     } else if(scroll < 20) {
 
-        header.classList.remove('nav_mode');
+        header.classList.remove('nav_mod');
 
     }
 }
